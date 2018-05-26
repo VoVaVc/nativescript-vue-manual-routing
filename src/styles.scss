@@ -1,0 +1,171 @@
+.fa {
+  font-family: FontAwesome, FontAwesome;
+  color: #3bc126;
+  font-size: 40px
+}
+
+.ro 
+{
+  font-family: "Roboto-Regular";
+}
+
+$green: #3bc126;
+
+$label-color: #333;
+Label {
+  color: $label-color;
+}
+
+.maskedInput,
+.textField,
+TextField {
+  border-width: 2;
+  border-color: #e8ebed;
+  margin-bottom: 20;
+
+  color: black;
+  placeholder-color: #ACA6A7;
+  margin-bottom: 10;
+  padding: 10;
+
+  &:focus
+  {
+    border-color: $green;
+  }
+}
+
+Button,
+TextField,
+.textField,
+.maskedInput,
+MaskedTextField
+{
+  font-size: 16px;
+}
+
+
+Button,
+TextField,
+.textField,
+MaskedTextField,
+.maskedInput {
+  margin: 10 16 0;
+  padding: 12 12;
+}
+
+Button
+{
+  
+  &:disabled {
+    background-color: grey;
+  }
+}
+
+.btn-green 
+{
+  border-width: 1;
+  border-color: transparent;
+  background-color: $green;
+  color: white;
+
+  &:disabled {
+    background-color: gray;
+  }
+}
+
+.btn-trans 
+{
+  background-color: transparent;
+ 	color: $green;
+
+ 	border-width: 1;
+  border-color: $green;
+
+  transition: all .2s linear;
+
+  &:active
+  {
+  	background-color: $green;
+  	color: white;
+  }
+}
+
+.backLink 
+{
+  color: #3391ea;
+  margin: 16px 0;
+  border-width: 1;
+  border-color: transparent;
+}
+
+.maskedInput
+{
+	margin: 10 16 0;
+  padding: 12;
+	border-width: 2;
+	border-color: #e8ebed;
+}
+
+ .background 
+{
+  background: url('~/images/food.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+ .background_gray 
+{
+  background: url('~/images/gray_bg.png'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+ .background_addClient
+{
+  background: url('~/images/AddClientBg.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.marginHotfix
+{
+  margin-top: -29px;
+}
+
+ .small
+ {
+ 	font-size: 14px;
+ }
+
+  .demi
+ {
+ 	font-size: 20px;
+ }
+
+ .medium
+ {
+ 	font-size: 32px;
+ }
+
+.paddings
+{
+	padding: 0 15;
+}
+
+.textCenter
+{
+  text-align: center;
+}
+
+.textLeft
+{
+	text-align: left;
+}
+
+.textRight
+{
+	text-align: right;
+}
